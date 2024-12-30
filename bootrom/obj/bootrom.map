@@ -1,0 +1,383 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_thumb1_case_uqi.o)
+                              obj/usb_cdc.o (__gnu_thumb1_case_uqi)
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_thumb1_case_uhi.o)
+                              obj/bootrom.o (__gnu_thumb1_case_uhi)
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_udivsi3.o)
+                              obj/flashmem.o (__aeabi_uidiv)
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_divsi3.o)
+                              obj/flashmem.o (__aeabi_idiv)
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_dvmd_tls.o)
+                              /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_lshrdi3.o)
+                              obj/usb_cdc.o (__aeabi_llsr)
+/usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_aeabi_ulcmp.o)
+                              obj/bootrom.o (__aeabi_ulcmp)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 obj/version_pm3.o
+ .data          0x0000000000000000        0x0 obj/version_pm3.o
+ .bss           0x0000000000000000        0x0 obj/version_pm3.o
+ .text          0x0000000000000000        0x0 obj/ram-reset.o
+ .data          0x0000000000000000        0x0 obj/ram-reset.o
+ .bss           0x0000000000000000        0x0 obj/ram-reset.o
+ .text          0x0000000000000000        0x0 obj/flash-reset.o
+ .data          0x0000000000000000        0x0 obj/flash-reset.o
+ .bss           0x0000000000000000        0x0 obj/flash-reset.o
+ .text          0x0000000000000000        0x0 obj/usb_cdc.o
+ .data          0x0000000000000000        0x0 obj/usb_cdc.o
+ .bss           0x0000000000000000        0x0 obj/usb_cdc.o
+ .text.SetUSBreconnect
+                0x0000000000000000        0xc obj/usb_cdc.o
+ .text.GetUSBreconnect
+                0x0000000000000000        0xc obj/usb_cdc.o
+ .text.SetUSBconfigured
+                0x0000000000000000        0xc obj/usb_cdc.o
+ .text.GetUSBconfigured
+                0x0000000000000000        0xc obj/usb_cdc.o
+ .text.usb_available_length
+                0x0000000000000000       0x10 obj/usb_cdc.o
+ .text.usb_read_ng_has_buffered_data
+                0x0000000000000000       0x10 obj/usb_cdc.o
+ .text.async_usb_write_pushByte
+                0x0000000000000000       0x14 obj/usb_cdc.o
+ .text.async_usb_write_requestWrite
+                0x0000000000000000       0x54 obj/usb_cdc.o
+ .text.usb_poll
+                0x0000000000000000       0x28 obj/usb_cdc.o
+ .text.usb_read_ng
+                0x0000000000000000      0x134 obj/usb_cdc.o
+ .text.async_usb_write_start
+                0x0000000000000000       0x38 obj/usb_cdc.o
+ .text.async_usb_write_stop
+                0x0000000000000000       0xa0 obj/usb_cdc.o
+ .bss.isAsyncRequestFinished
+                0x0000000000000000        0x1 obj/usb_cdc.o
+ .bss.usb_configured
+                0x0000000000000000        0x4 obj/usb_cdc.o
+ .bss.usb_read_ng_buffer
+                0x0000000000000000       0x40 obj/usb_cdc.o
+ .bss.usb_read_ng_buflen
+                0x0000000000000000        0x4 obj/usb_cdc.o
+ .bss.usb_read_ng_bufoffset
+                0x0000000000000000        0x1 obj/usb_cdc.o
+ .bss.usb_reconnect
+                0x0000000000000000        0x4 obj/usb_cdc.o
+ .text          0x0000000000000000        0x0 obj/clocks.o
+ .data          0x0000000000000000        0x0 obj/clocks.o
+ .bss           0x0000000000000000        0x0 obj/clocks.o
+ .text.mck_from_pll_to_slck
+                0x0000000000000000       0x28 obj/clocks.o
+ .text          0x0000000000000000        0x0 obj/bootrom.o
+ .data          0x0000000000000000        0x0 obj/bootrom.o
+ .bss           0x0000000000000000        0x0 obj/bootrom.o
+ .text          0x0000000000000000        0x0 obj/flashmem.o
+ .data          0x0000000000000000        0x0 obj/flashmem.o
+ .bss           0x0000000000000000        0x0 obj/flashmem.o
+ .text.FlashSendLastByte
+                0x0000000000000000       0x12 obj/flashmem.o
+ .text          0x0000000000000000        0x0 obj/ticks.o
+ .data          0x0000000000000000        0x0 obj/ticks.o
+ .bss           0x0000000000000000        0x0 obj/ticks.o
+ .data          0x0000000000000000        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_thumb1_case_uqi.o)
+ .bss           0x0000000000000000        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_thumb1_case_uqi.o)
+ .data          0x0000000000000000        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_thumb1_case_uhi.o)
+ .bss           0x0000000000000000        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_thumb1_case_uhi.o)
+ .data          0x0000000000000000        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_udivsi3.o)
+ .bss           0x0000000000000000        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_udivsi3.o)
+ .text          0x0000000000000000      0x148 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_divsi3.o)
+ .data          0x0000000000000000        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_divsi3.o)
+ .bss           0x0000000000000000        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_divsi3.o)
+ .debug_frame   0x0000000000000000       0x20 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x0000000000000000       0x1c /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_divsi3.o)
+ .data          0x0000000000000000        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_dvmd_tls.o)
+ .data          0x0000000000000000        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_lshrdi3.o)
+ .bss           0x0000000000000000        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_lshrdi3.o)
+ .data          0x0000000000000000        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_aeabi_ulcmp.o)
+ .bss           0x0000000000000000        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_aeabi_ulcmp.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+bootphase1       0x0000000000100000 0x0000000000000200
+bootphase2       0x0000000000100200 0x0000000000001e00
+osimage          0x0000000000102000 0x000000000007e000
+ram              0x0000000000200000 0x000000000000ffe0
+stack            0x000000000020deb8 0x0000000000002128
+commonarea       0x000000000020ffe0 0x0000000000000020
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000000002128                stacksize = DEFINED (stacksize)?stacksize:0x2128
+                0x0000000000000020                commonareasize = 0x20
+                0x00000000001001fc                _bootphase1_version_pointer = ((ORIGIN (bootphase1) + LENGTH (bootphase1)) - 0x4)
+                0x0000000000102000                _osimage_entry = ORIGIN (osimage)
+                0x0000000000100000                _bootrom_start = ORIGIN (bootphase1)
+                0x0000000000102000                _bootrom_end = (ORIGIN (bootphase2) + LENGTH (bootphase2))
+                0x0000000000100000                _flash_start = ORIGIN (bootphase1)
+                0x0000000000180000                _flash_end = (ORIGIN (osimage) + LENGTH (osimage))
+                0x000000000020deb8                _stack_start = ORIGIN (stack)
+                0x000000000020ffd8                _stack_end = ((ORIGIN (ram) + LENGTH (ram)) - 0x8)
+
+.bootphase1     0x0000000000100000      0x200
+ *(.startup)
+ .startup       0x0000000000100000       0x70 obj/flash-reset.o
+                0x0000000000100000                flashstart
+                0x0000000000100070                . = ALIGN (0x4)
+                0x0000000000100070                _version_information_start = .
+ *(.version_information)
+ .version_information
+                0x0000000000100070       0x61 obj/version_pm3.o
+                0x0000000000100070                g_version_information
+                0x00000000000001fc                . = (LENGTH (bootphase1) - 0x4)
+ *fill*         0x00000000001000d1      0x12b 
+                0x00000000001001fc        0x4 LONG 0x100070 _version_information_start
+
+.vfp11_veneer   0x0000000000100200        0x0
+ .vfp11_veneer  0x0000000000100200        0x0 linker stubs
+
+.v4_bx          0x0000000000100200        0x0
+ .v4_bx         0x0000000000100200        0x0 linker stubs
+
+.iplt           0x0000000000100200        0x0
+ .iplt          0x0000000000100200        0x0 obj/ram-reset.o
+
+.igot.plt       0x0000000000100200        0x0
+ .igot.plt      0x0000000000100200        0x0 obj/ram-reset.o
+
+.rel.dyn        0x0000000000100200        0x0
+ .rel.iplt      0x0000000000100200        0x0 obj/ram-reset.o
+
+.bootphase2     0x0000000000200000     0x14b0 load address 0x0000000000100200
+ *(.startphase2)
+ .startphase2   0x0000000000200000        0xc obj/ram-reset.o
+                0x0000000000200000                ram_start
+ *(.text)
+ .text          0x000000000020000c       0x14 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_thumb1_case_uqi.o)
+                0x000000000020000c                __gnu_thumb1_case_uqi
+ .text          0x0000000000200020       0x14 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_thumb1_case_uhi.o)
+                0x0000000000200020                __gnu_thumb1_case_uhi
+ .text          0x0000000000200034      0x114 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_udivsi3.o)
+                0x0000000000200034                __udivsi3
+                0x0000000000200034                __aeabi_uidiv
+                0x0000000000200128                __aeabi_uidivmod
+ .text          0x0000000000200148        0x4 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_dvmd_tls.o)
+                0x0000000000200148                __aeabi_ldiv0
+                0x0000000000200148                __aeabi_idiv0
+ .text          0x000000000020014c       0x1c /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_lshrdi3.o)
+                0x000000000020014c                __aeabi_llsr
+                0x000000000020014c                __lshrdi3
+ .text          0x0000000000200168       0x24 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_aeabi_ulcmp.o)
+                0x0000000000200168                __aeabi_ulcmp
+ *(.text.*)
+ .text.usb_update_serial
+                0x000000000020018c       0x80 obj/usb_cdc.o
+                0x000000000020018c                usb_update_serial
+ .text.usb_disable
+                0x000000000020020c       0x20 obj/usb_cdc.o
+                0x000000000020020c                usb_disable
+ .text.usb_enable
+                0x000000000020022c       0x9c obj/usb_cdc.o
+                0x000000000020022c                usb_enable
+ .text.AT91F_USB_SendData
+                0x00000000002002c8       0xbc obj/usb_cdc.o
+                0x00000000002002c8                AT91F_USB_SendData
+ .text.AT91F_USB_SendZlp
+                0x0000000000200384       0x4c obj/usb_cdc.o
+                0x0000000000200384                AT91F_USB_SendZlp
+ .text.AT91F_USB_SendStall
+                0x00000000002003d0       0x4c obj/usb_cdc.o
+                0x00000000002003d0                AT91F_USB_SendStall
+ .text.AT91F_CDC_Enumerate
+                0x000000000020041c      0x314 obj/usb_cdc.o
+                0x000000000020041c                AT91F_CDC_Enumerate
+ .text.usb_check
+                0x0000000000200730       0x50 obj/usb_cdc.o
+                0x0000000000200730                usb_check
+ .text.usb_poll_validate_length
+                0x0000000000200780       0x34 obj/usb_cdc.o
+                0x0000000000200780                usb_poll_validate_length
+ .text.usb_read
+                0x00000000002007b4       0x94 obj/usb_cdc.o
+                0x00000000002007b4                usb_read
+ .text.usb_write
+                0x0000000000200848      0x150 obj/usb_cdc.o
+                0x0000000000200848                usb_write
+ .text.mck_from_slck_to_pll
+                0x0000000000200998       0x40 obj/clocks.o
+                0x0000000000200998                mck_from_slck_to_pll
+ .text.delay_loop
+                0x00000000002009d8       0x38 obj/bootrom.o
+ .text.reply_old
+                0x0000000000200a10       0x70 obj/bootrom.o
+ .text.flash_mode
+                0x0000000000200a80      0x428 obj/bootrom.o
+ .text.BootROM  0x0000000000200ea8      0x150 obj/bootrom.o
+                0x0000000000200ea8                BootROM
+ .text.FlashStop
+                0x0000000000200ff8       0x28 obj/flashmem.o
+                0x0000000000200ff8                FlashStop
+ .text.FlashSetup
+                0x0000000000201020       0xa4 obj/flashmem.o
+                0x0000000000201020                FlashSetup
+ .text.FlashSendByte
+                0x00000000002010c4       0x18 obj/flashmem.o
+                0x00000000002010c4                FlashSendByte
+ .text.Flash_ReadStat1
+                0x00000000002010dc       0x1c obj/flashmem.o
+                0x00000000002010dc                Flash_ReadStat1
+ .text.Flash_CheckBusy
+                0x00000000002010f8       0x4c obj/flashmem.o
+                0x00000000002010f8                Flash_CheckBusy
+ .text.FlashInit
+                0x0000000000201144       0x30 obj/flashmem.o
+                0x0000000000201144                FlashInit
+ .text.Flash_UniqueID
+                0x0000000000201174       0x7c obj/flashmem.o
+                0x0000000000201174                Flash_UniqueID
+ .text.StartCountUS
+                0x00000000002011f0       0x58 obj/ticks.o
+                0x00000000002011f0                StartCountUS
+ .text.StartTicks
+                0x0000000000201248       0x60 obj/ticks.o
+                0x0000000000201248                StartTicks
+ .text.GetTicks
+                0x00000000002012a8       0x24 obj/ticks.o
+                0x00000000002012a8                GetTicks
+ .text.WaitTicks
+                0x00000000002012cc       0x1a obj/ticks.o
+                0x00000000002012cc                WaitTicks
+ .text.WaitUS   0x00000000002012e6       0x16 obj/ticks.o
+                0x00000000002012e6                WaitUS
+ .text.StopTicks
+                0x00000000002012fc       0x14 obj/ticks.o
+                0x00000000002012fc                StopTicks
+ *(.eh_frame)
+ *(.glue_7)
+ .glue_7        0x0000000000201310        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x0000000000201310        0x0 linker stubs
+ *(.rodata)
+ *(.rodata.*)
+ .rodata.StrLanguageCodes
+                0x0000000000201310        0x4 obj/usb_cdc.o
+ .rodata.StrMS_OSDescriptor
+                0x0000000000201314       0x12 obj/usb_cdc.o
+ .rodata.StrManufacturer
+                0x0000000000201326       0x1a obj/usb_cdc.o
+ .rodata.StrProduct
+                0x0000000000201340       0x14 obj/usb_cdc.o
+ .rodata.bosDescriptor
+                0x0000000000201354        0xc obj/usb_cdc.o
+ .rodata.cfgDescriptor
+                0x0000000000201360       0x43 obj/usb_cdc.o
+ .rodata.devDescriptor
+                0x00000000002013a3       0x12 obj/usb_cdc.o
+ *fill*         0x00000000002013b5        0x3 
+ .rodata.CSWTCH.16
+                0x00000000002013b8       0x34 obj/bootrom.o
+ *(.data)
+ *(.data.*)
+ .data.StrSerialNumber
+                0x00000000002013ec       0x32 obj/usb_cdc.o
+                0x00000000002013ec                StrSerialNumber
+ .data.btReceiveBank
+                0x000000000020141e        0x1 obj/usb_cdc.o
+ *fill*         0x000000000020141f        0x1 
+ .data.line     0x0000000000201420        0x8 obj/usb_cdc.o
+ *(.ramfunc)
+ .ramfunc       0x0000000000201428       0x50 obj/ticks.o
+                0x0000000000201428                GetCountUS
+                0x0000000000201454                GetTicksDelta
+ .ramfunc.__stub
+                0x0000000000201478       0x30 linker stubs
+                0x00000000002014a8                . = ALIGN (0x4)
+                0x0000000000100200                __bootphase2_src_start__ = LOADADDR (.bootphase2)
+                0x0000000000200000                __bootphase2_start__ = ADDR (.bootphase2)
+                0x00000000002014b0                __bootphase2_end__ = (__bootphase2_start__ + SIZEOF (.bootphase2))
+
+.bss            0x00000000002014b0       0x14
+                0x00000000002014b0                __bss_start__ = .
+ *(.bss)
+ *(.bss.*)
+ .bss.btConfiguration
+                0x00000000002014b0        0x1 obj/usb_cdc.o
+ .bss.configured.0
+                0x00000000002014b1        0x1 obj/usb_cdc.o
+ *fill*         0x00000000002014b2        0x2 
+ .bss.ccc       0x00000000002014b4        0x4 obj/bootrom.o
+ .bss.bootrom_unlocked
+                0x00000000002014b8        0x1 obj/bootrom.o
+                0x00000000002014b8                bootrom_unlocked
+ *fill*         0x00000000002014b9        0x3 
+ .bss.end_addr  0x00000000002014bc        0x4 obj/bootrom.o
+                0x00000000002014bc                end_addr
+ .bss.start_addr
+                0x00000000002014c0        0x4 obj/bootrom.o
+                0x00000000002014c0                start_addr
+                0x00000000002014c4                . = ALIGN (0x4)
+                0x00000000002014c4                __bss_end__ = .
+
+.commonarea     0x000000000020ffe0        0xf
+ *(.commonarea)
+ .commonarea    0x000000000020ffe0        0xf obj/bootrom.o
+                0x000000000020ffe0                g_common_area
+LOAD obj/version_pm3.o
+LOAD obj/ram-reset.o
+LOAD obj/flash-reset.o
+LOAD obj/usb_cdc.o
+LOAD obj/clocks.o
+LOAD obj/bootrom.o
+LOAD obj/flashmem.o
+LOAD obj/ticks.o
+LOAD /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a
+OUTPUT(obj/bootrom.elf elf32-littlearm)
+LOAD linker stubs
+
+.comment        0x0000000000000000       0x49
+ .comment       0x0000000000000000       0x49 obj/version_pm3.o
+                                         0x4a (size before relaxing)
+ .comment       0x0000000000000049       0x4a obj/usb_cdc.o
+ .comment       0x0000000000000049       0x4a obj/clocks.o
+ .comment       0x0000000000000049       0x4a obj/bootrom.o
+ .comment       0x0000000000000049       0x4a obj/flashmem.o
+ .comment       0x0000000000000049       0x4a obj/ticks.o
+
+.ARM.attributes
+                0x0000000000000000       0x28
+ .ARM.attributes
+                0x0000000000000000       0x2a obj/version_pm3.o
+ .ARM.attributes
+                0x000000000000002a       0x1a obj/ram-reset.o
+ .ARM.attributes
+                0x0000000000000044       0x1a obj/flash-reset.o
+ .ARM.attributes
+                0x000000000000005e       0x2a obj/usb_cdc.o
+ .ARM.attributes
+                0x0000000000000088       0x2a obj/clocks.o
+ .ARM.attributes
+                0x00000000000000b2       0x2a obj/bootrom.o
+ .ARM.attributes
+                0x00000000000000dc       0x2a obj/flashmem.o
+ .ARM.attributes
+                0x0000000000000106       0x2a obj/ticks.o
+ .ARM.attributes
+                0x0000000000000130       0x1c /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_thumb1_case_uqi.o)
+ .ARM.attributes
+                0x000000000000014c       0x1c /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_thumb1_case_uhi.o)
+ .ARM.attributes
+                0x0000000000000168       0x1c /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000000000000184       0x1c /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000000000001a0       0x1c /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_lshrdi3.o)
+ .ARM.attributes
+                0x00000000000001bc       0x1c /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_aeabi_ulcmp.o)
+
+.debug_frame    0x0000000000000000       0x20
+ .debug_frame   0x0000000000000000       0x20 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.10/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/libgcc.a(_udivsi3.o)
